@@ -1,0 +1,75 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #1d4ed8;
+  margin-top: 50px;
+}
+
+.label {
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: larger;
+}
+
+.input {
+  text-align: center;
+  font-size: larger;
+  margin: auto;
+  width: 20%;
+  height: 30px;
+  padding: 10px 10px;
+  border-radius: 1em;
+  border: 2.5px solid #1d4ed8;
+}
+
+#check-button {
+  background-color: #1d4ed8;
+  color: aliceblue;
+  font-size: larger;
+  margin: 20px auto;
+  width: 15%;
+  height: 50px;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+caption {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid #1d4ed8;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  width: 5em;
+  height: 2em;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+p {
+  font-size: larger;
+}
+
+#error {
+  color: red;
+  font-weight: 700;
+}
