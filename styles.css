@@ -8,6 +8,7 @@
   flex-direction: column;
   width: 60vw;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .heading {
@@ -78,11 +79,22 @@ p {
 .footer-container {
   text-align: center;
   width: 60vw;
-  margin: auto;
-  margin-top: 3.5em;
+  margin-top: auto;
 }
 
 img {
   width: 30px;
   margin: 10px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
 }

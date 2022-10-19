@@ -13,7 +13,7 @@ checkButton.addEventListener("click", clickHandler);
 function clickHandler() {
   console.log(~~billAmount.value + ~~cashGiven.value);
   hideMessage();
-  if (~~billAmount.value > 0) {
+  if (~~billAmount.value > 0 && ~~cashGiven.value > 0) {
     if (~~cashGiven.value >= ~~billAmount.value) {
       const amountToBeReturned = cashGiven.value - billAmount.value;
       returnBalance.innerText = "Rs. " + amountToBeReturned;
@@ -22,7 +22,7 @@ function clickHandler() {
       showMessage("Do you wanna wash dishes?");
     }
   } else {
-    showMessage("Cash given should be greater than zero!");
+    showMessage("Amount should be greater than zero!");
   }
 }
 
