@@ -16,40 +16,45 @@
       </p>
 
       <form onsubmit="return false">
-        <label for="bill-amount" class="label">Bill Amount: </label>
+        <label for="bill-amount" class="label-bill">Bill Amount: </label>
         <input id="bill-amount" class="input" required />
-        <label for="cash-given" class="label">Cash Given: </label>
+        <button id="next-button">Next</button>
+      </form>
+      <form onsubmit="return false">
+        <label for="cash-given" class="label-cash">Cash Given: </label>
         <input id="cash-given" class="input" required />
         <button id="check-button">Check</button>
       </form>
 
       <p id="error"></p>
-      <table class="change-table">
-        <caption>
-          Return Change:
-          <span id="return"></span>
-        </caption>
-        <tr>
-          <th>No. of Notes</th>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-          <td class="number-of-notes"></td>
-        </tr>
-        <tr>
-          <th>Note</th>
-          <td>2000</td>
-          <td>500</td>
-          <td>100</td>
-          <td>20</td>
-          <td>10</td>
-          <td>5</td>
-          <td>1</td>
-        </tr>
-      </table>
+      <div class="table">
+        <table class="change-table">
+          <caption>
+            Return Change:
+            <span id="return"></span>
+          </caption>
+          <tr>
+            <th>No. of Notes</th>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+            <td class="number-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
     </div>
     <footer class="footer-container">
       <p>©️ | 2022 | Harsh Mohite</p>
